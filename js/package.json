@@ -1,0 +1,23 @@
+{
+  "name": "electrum43",
+  "version": "0.0.0",
+  "description": "decode Electrum's base43 data format in Javascript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacoblyles/base43js"
+  },
+  "keywords": [
+    "electrum"
+  ],
+  "author": "Jacob Lyles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacoblyles/base43js/issues"
+  },
+  "scripts" : {
+    "test" : "tap ./test/*.js"
+  },
+  "devDependencies": {
+    "tap": "^5.0.0"
+  }
+}
