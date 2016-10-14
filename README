@@ -1,4 +1,4 @@
-#Base 43
+# Base 43
 
 The Electrum bitcoin wallet uses a custom base 43 encoding on data before it is displayed as a QR code. See the "base_encode" function here:
 
