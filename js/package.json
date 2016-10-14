@@ -1,11 +1,12 @@
 {
   "name": "electrum43",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "decode Electrum's base43 data format in Javascript",
   "repository": {
     "type": "git",
     "url": "https://github.com/jacoblyles/base43js"
   },
+  "main": "base43.js",
   "keywords": [
     "electrum"
   ],
