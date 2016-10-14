@@ -125,7 +125,7 @@
 
 <div id="heading">
   <h1>Electrum base43 converter</h1>
-  <p>The Electrum bitcoin wallet converts data into a custom base43 format before turning it into a QR code. This data has to be converted to a hex string before the transaction can be understood by Bitcoin and sent to the Bitcoin network (perhaps using a tool like <a href="https://blockchain.info/decode-tx">this one</a> or <a href="https://blockchain.info/pushtx">this one</a>). This tool will do that for you.
+  <p>This tool converts Electrum's base 43 data format into the hex string format understood by Bitcoin. You might use this to convert an Electrum QR code of an offline signed transaction into a hex string before broadcasting it to the Bitcoin network with a tool like <a href="https://blockchain.info/pushtx">this one</a>.
   </p>
 </div>
 <form onsubmit="return main()">
