@@ -6,7 +6,7 @@
     function main(){
       var input = document.getElementById("input");
       try {
-        var val43 = Base43.decode(input.value);
+        var val43 = Base43.decode(input.value.trim());
         document.getElementById("output").innerHTML = val43;
         document.getElementById("error").style.display = "none";
       } catch (e) {
