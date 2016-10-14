@@ -1,6 +1,6 @@
 {
   "name": "electrum43",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "decode Electrum's base43 data format in Javascript",
   "repository": {
     "type": "git",
