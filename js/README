@@ -1,0 +1,1 @@
+The Electrum bitcoin wallet uses a custom base 43 encoding on data before it is displayed as a QR code. If you used a QR reader to transfer data from electrum off of a machine, you need to be able to transform that into a hex string before bitcoin will know what to do with it. This library offers functions to encode and decode the Electrum base 43 format.  
